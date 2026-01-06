@@ -40,4 +40,5 @@ Berdasarkan kode yang dibangun, website ini memiliki fitur-fitur berikut:
 └── foto-arizal.png # (Pastikan file gambar profil tersedia)
 
 ---
-*Dibuat oleh Arizal Anshori*
+
+*Created with ❤️ by Arizal Anshori | GitHub | LinkedIn*
