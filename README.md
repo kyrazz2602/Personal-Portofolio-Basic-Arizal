@@ -15,9 +15,9 @@ Berdasarkan kode yang dibangun, website ini memiliki fitur-fitur berikut:
 
 * **Modern Dark UI:** Desain antarmuka gelap yang elegan menggunakan variabel CSS (`:root`) untuk manajemen warna yang mudah.
 * **Animasi CSS Murni:**
-    * Efek mengetik (Typing Text) pada bagian hero.
-    * Border berputar (Rotating Border) pada foto profil.
-    * Animasi loading bar saat halaman dimuat.
+  * Efek mengetik (Typing Text) pada bagian hero.
+  * Border berputar (Rotating Border) pada foto profil.
+  * Animasi loading bar saat halaman dimuat.
 * **Glassmorphism:** Efek kaca transparan pada navigasi bar.
 * **Responsif:** Tata letak grid yang menyesuaikan dengan ukuran layar perangkat (Desktop & Mobile friendly).
 * **Bagian Lengkap:** Navigasi, Home, Projects (dengan kartu detail), Articles, dan Formulir Kontak.
@@ -39,6 +39,6 @@ Berdasarkan kode yang dibangun, website ini memiliki fitur-fitur berikut:
 ├── resume.pdf      # (Pastikan file ini ada untuk fitur download CV)
 └── foto-arizal.png # (Pastikan file gambar profil tersedia)
 
----
+```
 
 *Created with ❤️ by Arizal Anshori | GitHub | LinkedIn*
