@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Arizal Anshori, showcasing web development projects and skills">
+  <meta name="keywords" content="Arizal Anshori, web developer, portfolio, HTML">
+  <meta name="author" content="Arizal Anshori">
+  
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link href='https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css' rel='stylesheet'>
+  <link href='https://cdn.boxicons.com/3.0.6/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+  <link href='https://cdn.boxicons.com/3.0.6/fonts/animations.min.css' rel='stylesheet'>
+  <title>My Basic Portfolio - Arizal Anshori</title>
+</head>
+<body>
+
+    <nav class="navbar">
+      <a href="#" class="logo">My Portfolio</a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="bars-animation">
+      <div class="bar" style="--i:1"></div>
+      <div class="bar" style="--i:2"></div>
+      <div class="bar" style="--i:3"></div>
+      <div class="bar" style="--i:4"></div>
+      <div class="bar" style="--i:5"></div>
+      <div class="bar" style="--i:6"></div>
+    </div>
+
+  <main>
+    <section id="home" class="home">
+      <div class="home-info">
+        <h1>Arizal Anshori</h1>
+        <h2>I'm a
+          <span style="--i:3" data-text="Full-Stack Developer">Full-Stack Developer</span>
+          <span style="--i:2" data-text="Electrical Engineer">Electrical Engineer</span>
+          <span style="--i:1" data-text="AI Enthusiast">AI Enthusiast</span>
+        </h2>
+        <p>I web developer passionate about creating amazing web experiences. I specialize in building intelligent applications with AI and robust web solutions.</p>
+        <div class="btn-container">
+          <a href="#projects" class="btn">View My Projects</a>
+          <a href="resume.pdf" class="btn" download>Download CV</a>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/arizal-anshori-888b6b241" class="social-link" target="_blank"><i class='bxl bx-linkedin'></i></a>
+            <a href="https://github.com/kyrazz2602" class="social-link" target="_blank"><i class='bxl bx-github'></i></a>
+            <a href="https://www.instagram.com/kyraa._/" class="social-link" target="_blank"><i class='bxl bx-instagram'></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <div class="img-box">
+          <div class="img-item">
+            <img src="foto-arizal.png" alt="Arizal Anshori">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 class="section-title">My Projects</h2>
+      <div class="project-container">
+        
+        <div class="project-card">
+          <div class="project-info">
+            <h3>AI Chat API (Backend)</h3>
+            <p class="role">Backend Developer | Aug 2025</p>
+            <p class="description">
+              Membangun RESTful API menggunakan Express.js untuk menangani interaksi chat dengan model Google Gemini 2.0 Flash. Mengamankan konfigurasi environment dan mengurangi error API hingga 40%.
+            </p>
+            <div class="tech-stack">
+              <span>Express.js</span>
+              <span>Node.js</span>
+              <span>Google Gemini AI</span>
+            </div>
+            <a href="https://github.com/kyrazz2602" class="btn-small">View Code</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Smart Agri-Fishery Solution</h3>
+            <p class="role">Machine Learning Engineer | Jul - Dec 2024</p>
+            <p class="description">
+              Mengembangkan model ML dengan TensorFlow untuk klasifikasi kualitas air (>1.000 data poin). Fitur prediksi panen membantu menghemat biaya pakan hingga 25%.
+            </p>
+            <div class="tech-stack">
+              <span>TensorFlow</span>
+              <span>Python</span>
+              <span>IoT</span>
+            </div>
+            <a href="https://github.com/kyrazz2602" class="btn-small">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Automatic Gate Prototype</h3>
+            <p class="role">IoT Engineer | Feb - Jul 2024</p>
+            <p class="description">
+              Merancang prototipe gerbang otomatis menggunakan Arduino, meningkatkan efisiensi operasional hingga 80% dan menghilangkan usaha manual sepenuhnya.
+            </p>
+            <div class="tech-stack">
+              <span>Arduino</span>
+              <span>C++</span>
+              <span>IoT</span>
+              <span>Electronics</span>
+            </div>
+            <a href="https://github.com/kyrazz2602" class="btn-small">View Demo</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-info">
+            <h3>License Plate Detection</h3>
+            <p class="role">Computer Vision Developer | Sep - Dec 2023</p>
+            <p class="description">
+              Melatih model YOLOv8 pada 1.000+ gambar, mencapai akurasi 95% dan mAP 92%. Mengotomatisasi pipeline inferensi dengan Python.
+            </p>
+            <div class="tech-stack">
+              <span>YOLOv8</span>
+              <span>Python</span>
+              <span>Computer Vision</span>
+            </div>
+            <a href="https://github.com/kyrazz2602" class="btn-small">View Project</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="articles" class="articles">
+      <h2 class="section-title">Latest Articles</h2>
+      <p class="subtitle">Sharing my thoughts on AI, IoT, and Electrical Engineering.</p>
+      
+      <div class="article-container">
+        <article class="article-card">
+          <h3>Understanding Natural Language Processing</h3>
+          <p class="summary">Sebuah panduan singkat tentang bagaimana saya mempelajari NLP menggunakan TensorFlow berdasarkan sertifikasi DeepLearning.AI saya.</p>
+          <a href="#" class="read-more">Read More &rarr;</a>
+        </article>
+
+        <article class="article-card">
+          <h3>The Future of IoT in Agriculture</h3>
+          <p class="summary">Bagaimana pengalaman saya membangun Smart Agri-Fishery mengajarkan saya tentang pentingnya integrasi sensor dalam budidaya perikanan.</p>
+          <a href="#" class="read-more">Read More &rarr;</a>
+        </article>
+
+        <article class="article-card">
+          <h3>Optimizing Backend Performance</h3>
+          <p class="summary">Tips dan trik keamanan API Key dan manajemen error yang saya pelajari saat membangun AI Chat API dengan Express.js.</p>
+          <a href="#" class="read-more">Read More &rarr;</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+          
+          <div class="info-item">
+            <i class='bx bxs-envelope'></i>
+            <span>arizalanhr34@gmail.com</span> </div>
+          <div class="info-item">
+            <i class='bx bxs-phone'></i>
+            <span>0895-0143-5572</span> </div>
+          <div class="info-item">
+            <i class='bxl bx-linkedin'></i>
+            <a href="https://www.linkedin.com/in/arizal-anshori-888b6b241">LinkedIn</a> </div>
+          <div class="info-item">
+            <i class='bxl bx-github'></i>
+            <a href="https://github.com/kyrazz2602">GitHub</a> </div>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 <strong>Arizal Anshori</strong>. All rights reserved.</p>
+    <div class="social-links-footer">
+        <a href="https://www.linkedin.com/in/arizal-anshori-888b6b241"><i class='bxl bx-linkedin'></i></a>
+        <a href="https://github.com/kyrazz2602"><i class='bxl bx-github'></i></a>
+    </div>
+  </footer>
+
+</body>
+</html>
