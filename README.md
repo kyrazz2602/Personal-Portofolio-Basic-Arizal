@@ -9,6 +9,10 @@ Proyek ini juga merupakan penyelesaian dari tantangan Frontend Roadmap.
 
 > **Project Roadmap URL:** [https://roadmap.sh/projects/portfolio-website](https://roadmap.sh/projects/portfolio-website)
 
+## 📸 Tampilan Proyek
+
+![Datepicker Preview](Project-image.png)
+
 ## 🌟 Fitur Utama
 
 Berdasarkan kode yang dibangun, website ini memiliki fitur-fitur berikut:
